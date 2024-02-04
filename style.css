@@ -13,6 +13,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    margin: 10px;
 }
 
 .info {
@@ -37,14 +38,15 @@ h4 {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
 }
 
 .image_2 {
-    width: 80px;
+    max-width: 80px;
 }
 
 .image_1 {
-    width: 80px;
+    max-width: 80px;
 }
 
 .about-me {
@@ -94,6 +96,7 @@ p {
 
 .web-card img {
     max-width: 80px;
+    border-radius: 50%;
 }
 
 footer {
