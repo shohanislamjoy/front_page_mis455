@@ -1,7 +1,7 @@
 * {
     margin: 5px;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -58,6 +58,7 @@ li {
     margin-left: 40px;
     padding: 0;
     font-size: small;
+    color: grey;
 }
 
 .web {
