@@ -1,0 +1,97 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.info {
+    justify-content: center;
+    margin: 10px;
+    /* text-align: center; */
+}
+
+h1 {
+    color: rgb(112, 112, 112);
+    font-size: 38pt;
+}
+
+h2 {
+    font-size: 26pt;
+}
+
+h4 {
+    font-size: 24pt;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image_2 {
+    width: 80px;
+}
+
+.image_1 {
+    width: 80px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+li {
+    margin-left: 40px;
+    padding: 0;
+    font-size: small;
+}
+
+.web {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.web-card {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.web-card img {
+    height: auto;
+    border-radius: 5px;
+}
+
+.web-card p {
+    margin: 10px 0;
+}
+
+.web-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: grey;
+}
+
+.web-card img {
+    max-width: 80px;
+}
+
+footer {
+    color: darkgrey;
+    text-align: left;
+    padding: 10px;
+}
